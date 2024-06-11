@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486A359E2C18A1AE004CCFFF /* OpheliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A359D2C18A1AE004CCFFF /* OpheliaApp.swift */; };
+		486A35A02C18A1AE004CCFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A359F2C18A1AE004CCFFF /* ContentView.swift */; };
+		486A35A22C18A1B1004CCFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486A35A12C18A1B1004CCFFF /* Assets.xcassets */; };
+		486A35A52C18A1B1004CCFFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486A35A42C18A1B1004CCFFF /* Preview Assets.xcassets */; };
+		486A35AF2C18A1B2004CCFFF /* OpheliaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A35AE2C18A1B2004CCFFF /* OpheliaTests.swift */; };
+		486A35B92C18A1B2004CCFFF /* OpheliaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A35B82C18A1B2004CCFFF /* OpheliaUITests.swift */; };
+		486A35BB2C18A1B2004CCFFF /* OpheliaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A35BA2C18A1B2004CCFFF /* OpheliaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		486A35AB2C18A1B2004CCFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486A35922C18A1AE004CCFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486A35992C18A1AE004CCFFF;
+			remoteInfo = Ophelia;
+		};
+		486A35B52C18A1B2004CCFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486A35922C18A1AE004CCFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486A35992C18A1AE004CCFFF;
+			remoteInfo = Ophelia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		486A359A2C18A1AE004CCFFF /* Ophelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ophelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486A359D2C18A1AE004CCFFF /* OpheliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpheliaApp.swift; sourceTree = "<group>"; };
+		486A359F2C18A1AE004CCFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		486A35A12C18A1B1004CCFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486A35A42C18A1B1004CCFFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		486A35AA2C18A1B2004CCFFF /* OpheliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpheliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486A35AE2C18A1B2004CCFFF /* OpheliaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpheliaTests.swift; sourceTree = "<group>"; };
+		486A35B42C18A1B2004CCFFF /* OpheliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpheliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486A35B82C18A1B2004CCFFF /* OpheliaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpheliaUITests.swift; sourceTree = "<group>"; };
+		486A35BA2C18A1B2004CCFFF /* OpheliaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpheliaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486A35972C18A1AE004CCFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A35A72C18A1B2004CCFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A35B12C18A1B2004CCFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486A35912C18A1AE004CCFFF = {
+			isa = PBXGroup;
+			children = (
+				486A359C2C18A1AE004CCFFF /* Ophelia */,
+				486A35AD2C18A1B2004CCFFF /* OpheliaTests */,
+				486A35B72C18A1B2004CCFFF /* OpheliaUITests */,
+				486A359B2C18A1AE004CCFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		486A359B2C18A1AE004CCFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486A359A2C18A1AE004CCFFF /* Ophelia.app */,
+				486A35AA2C18A1B2004CCFFF /* OpheliaTests.xctest */,
+				486A35B42C18A1B2004CCFFF /* OpheliaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486A359C2C18A1AE004CCFFF /* Ophelia */ = {
+			isa = PBXGroup;
+			children = (
+				486A359D2C18A1AE004CCFFF /* OpheliaApp.swift */,
+				486A359F2C18A1AE004CCFFF /* ContentView.swift */,
+				486A35A12C18A1B1004CCFFF /* Assets.xcassets */,
+				486A35A32C18A1B1004CCFFF /* Preview Content */,
+			);
+			path = Ophelia;
+			sourceTree = "<group>";
+		};
+		486A35A32C18A1B1004CCFFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				486A35A42C18A1B1004CCFFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		486A35AD2C18A1B2004CCFFF /* OpheliaTests */ = {
+			isa = PBXGroup;
+			children = (
+				486A35AE2C18A1B2004CCFFF /* OpheliaTests.swift */,
+			);
+			path = OpheliaTests;
+			sourceTree = "<group>";
+		};
+		486A35B72C18A1B2004CCFFF /* OpheliaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				486A35B82C18A1B2004CCFFF /* OpheliaUITests.swift */,
+				486A35BA2C18A1B2004CCFFF /* OpheliaUITestsLaunchTests.swift */,
+			);
+			path = OpheliaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486A35992C18A1AE004CCFFF /* Ophelia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486A35BE2C18A1B2004CCFFF /* Build configuration list for PBXNativeTarget "Ophelia" */;
+			buildPhases = (
+				486A35962C18A1AE004CCFFF /* Sources */,
+				486A35972C18A1AE004CCFFF /* Frameworks */,
+				486A35982C18A1AE004CCFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ophelia;
+			productName = Ophelia;
+			productReference = 486A359A2C18A1AE004CCFFF /* Ophelia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		486A35A92C18A1B2004CCFFF /* OpheliaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486A35C12C18A1B2004CCFFF /* Build configuration list for PBXNativeTarget "OpheliaTests" */;
+			buildPhases = (
+				486A35A62C18A1B2004CCFFF /* Sources */,
+				486A35A72C18A1B2004CCFFF /* Frameworks */,
+				486A35A82C18A1B2004CCFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486A35AC2C18A1B2004CCFFF /* PBXTargetDependency */,
+			);
+			name = OpheliaTests;
+			productName = OpheliaTests;
+			productReference = 486A35AA2C18A1B2004CCFFF /* OpheliaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		486A35B32C18A1B2004CCFFF /* OpheliaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486A35C42C18A1B2004CCFFF /* Build configuration list for PBXNativeTarget "OpheliaUITests" */;
+			buildPhases = (
+				486A35B02C18A1B2004CCFFF /* Sources */,
+				486A35B12C18A1B2004CCFFF /* Frameworks */,
+				486A35B22C18A1B2004CCFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486A35B62C18A1B2004CCFFF /* PBXTargetDependency */,
+			);
+			name = OpheliaUITests;
+			productName = OpheliaUITests;
+			productReference = 486A35B42C18A1B2004CCFFF /* OpheliaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486A35922C18A1AE004CCFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					486A35992C18A1AE004CCFFF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					486A35A92C18A1B2004CCFFF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 486A35992C18A1AE004CCFFF;
+					};
+					486A35B32C18A1B2004CCFFF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 486A35992C18A1AE004CCFFF;
+					};
+				};
+			};
+			buildConfigurationList = 486A35952C18A1AE004CCFFF /* Build configuration list for PBXProject "Ophelia" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486A35912C18A1AE004CCFFF;
+			productRefGroup = 486A359B2C18A1AE004CCFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486A35992C18A1AE004CCFFF /* Ophelia */,
+				486A35A92C18A1B2004CCFFF /* OpheliaTests */,
+				486A35B32C18A1B2004CCFFF /* OpheliaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486A35982C18A1AE004CCFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486A35A52C18A1B1004CCFFF /* Preview Assets.xcassets in Resources */,
+				486A35A22C18A1B1004CCFFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A35A82C18A1B2004CCFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A35B22C18A1B2004CCFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486A35962C18A1AE004CCFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486A35A02C18A1AE004CCFFF /* ContentView.swift in Sources */,
+				486A359E2C18A1AE004CCFFF /* OpheliaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A35A62C18A1B2004CCFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486A35AF2C18A1B2004CCFFF /* OpheliaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A35B02C18A1B2004CCFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486A35B92C18A1B2004CCFFF /* OpheliaUITests.swift in Sources */,
+				486A35BB2C18A1B2004CCFFF /* OpheliaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		486A35AC2C18A1B2004CCFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486A35992C18A1AE004CCFFF /* Ophelia */;
+			targetProxy = 486A35AB2C18A1B2004CCFFF /* PBXContainerItemProxy */;
+		};
+		486A35B62C18A1B2004CCFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486A35992C18A1AE004CCFFF /* Ophelia */;
+			targetProxy = 486A35B52C18A1B2004CCFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		486A35BC2C18A1B2004CCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		486A35BD2C18A1B2004CCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486A35BF2C18A1B2004CCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ophelia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sola.Ophelia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		486A35C02C18A1B2004CCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ophelia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sola.Ophelia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		486A35C22C18A1B2004CCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sola.OpheliaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ophelia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ophelia";
+			};
+			name = Debug;
+		};
+		486A35C32C18A1B2004CCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sola.OpheliaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ophelia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ophelia";
+			};
+			name = Release;
+		};
+		486A35C52C18A1B2004CCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sola.OpheliaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ophelia;
+			};
+			name = Debug;
+		};
+		486A35C62C18A1B2004CCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sola.OpheliaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ophelia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486A35952C18A1AE004CCFFF /* Build configuration list for PBXProject "Ophelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486A35BC2C18A1B2004CCFFF /* Debug */,
+				486A35BD2C18A1B2004CCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486A35BE2C18A1B2004CCFFF /* Build configuration list for PBXNativeTarget "Ophelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486A35BF2C18A1B2004CCFFF /* Debug */,
+				486A35C02C18A1B2004CCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486A35C12C18A1B2004CCFFF /* Build configuration list for PBXNativeTarget "OpheliaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486A35C22C18A1B2004CCFFF /* Debug */,
+				486A35C32C18A1B2004CCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486A35C42C18A1B2004CCFFF /* Build configuration list for PBXNativeTarget "OpheliaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486A35C52C18A1B2004CCFFF /* Debug */,
+				486A35C62C18A1B2004CCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486A35922C18A1AE004CCFFF /* Project object */;
+}
